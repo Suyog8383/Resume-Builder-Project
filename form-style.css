@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* form css part */
+.head1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+}
+textarea {
+  border: 2px solid blueviolet;
+}
+input {
+  width: fit-content;
+  border: 2px solid blueviolet;
+}
+.professional-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.userSkill,
+.userSkills,
+.certiText,
+.langText,
+.weText,
+.aqText {
+  border: 2px solid blueviolet;
+  margin: 5px;
+}
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#we {
+  display: flex;
+  flex-direction: column;
+}
+#aq {
+  display: flex;
+  flex-direction: column;
+}
+#lang {
+  display: flex;
+  flex-direction: column;
+}
+#certi {
+  display: flex;
+  flex-direction: column;
+}
+#Skill {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #form {
+  display: none;
+} */
+
+/* template css part */
+#main-template {
+  margin: 80px;
+  display: none;
+}
+#template {
+  display: flex;
+}
+img {
+  height: 175px;
+  padding: 15px;
+}
+
+.left-side-template {
+  background-color: cadetblue;
+}
+.right-side-template h1 {
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dark-mode {
+  background-color: rgb(44, 41, 41);
+  color: white;
+}
+
+/* form2 css */
+.head {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.personal-data {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.left-personal-data {
+  display: flex;
+  gap: 30px;
+}
+.right-personal-data {
+  display: flex;
+  gap: 30px;
+}
+.linkedIn {
+  display: flex;
+  align-items: center;
+}
+.linkedIn img {
+  width: 50px;
+  height: 50px;
+}
+.mob-number {
+  display: flex;
+  align-items: center;
+}
+.mob-number img {
+  width: 50px;
+  height: 50px;
+}
+
+.email-data {
+  display: flex;
+  align-items: center;
+}
+.email-data img {
+  width: 50px;
+  height: 50px;
+}
+.addressData {
+  display: flex;
+  align-items: center;
+}
+.addressData img {
+  width: 50px;
+  height: 50px;
+}
+.education-all {
+  display: flex;
+  justify-content: space-around;
+  padding: 2px 30px;
+}
+h2 {
+  color: rgb(48, 194, 146);
+}
+
+.main-container {
+  display: none;
+}
+#userSkill2 li {
+  color: red;
+  list-style: none;
+}
+#userSkill2 {
+  display: flex;
+  gap: 10px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.colRed {
+  background-color: red;
+  color: white;
+}

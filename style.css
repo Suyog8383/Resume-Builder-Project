@@ -1,0 +1,39 @@
+body {
+  background-image: url(hiwbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 450px;
+  background-color: white;
+  box-shadow: 15px 15px 31px 0 #58585f;
+}
+button {
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+}
+h1 {
+  font-size: xx-large;
+}
+.box ol {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  margin: 5px;
+  height: 150px;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,5 @@
+functionality for version 1
+1.collect information from user
+2.add that information on template
+3.user can see the preview of resume
+4.user can save and print that resume.
