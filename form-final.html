@@ -34,7 +34,7 @@
             <label for="">Name</label>
             <input type="text" id="userName" placeholder="Enter Your Name" />
             <label for="">Phone Number</label>
-            <input type="number" id="userNum" placeholder="Enter Your Number" />
+            <input type="text" id="userNum" placeholder="Enter Your Number" />
             <label for="">Address</label>
             <textarea
               rows="5"
@@ -48,12 +48,10 @@
               id="userLinked"
               placeholder="Enter LinkedIn Account"
             />
+
             <label for="">Email</label>
-            <input
-              type="email"
-              id="userMail"
-              placeholder="Enter LinkedIn Account"
-            />
+
+            <input type="email" id="userMail" placeholder="Enter Your Email" />
 
             <div id="Skill">
               <label for="">Skills</label>
@@ -74,12 +72,6 @@
                 Add
               </button>
             </div>
-            <img src="/reference/see-saw-alone.gif" alt="" />
-
-            <!-- <div class="form-group">
-              <label for="">Upload Photo</label>
-              <input id="image" type="file" class="form-control mt-2" />
-            </div> -->
           </div>
           <!-- personal-info block end -->
 
@@ -175,9 +167,9 @@
       </div>
 
       <div class="last-btn">
-        <button onclick="myFunction()">dark mode</button>
-        <button onclick="musicFunPlay()">play</button>
-        <button onclick="musicFunPause()">pause</button>
+        <button class="btn btn-success" onclick="myFunction()">
+          dark mode
+        </button>
       </div>
 
       <!--   main-container form end -->
@@ -187,180 +179,177 @@
     <!---------------------------------------------------------------------------------------------------------------------------------->
 
     <div id="main-template">
-      <div class="head">
-        <div class="right-head">
-          <img id="image2" src="reference/profile.png" alt="" />
-        </div>
-        <div class="left-head">
-          <h1 id="userName2">Suyog Kalyan Nagawade</h1>
-          <p id="userObj2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
-            pariatur veritatis, natus obcaecati nobis earum dolorum hic
-            praesentium nostrum vitae omnis id doloremque libero quam dolores
-            magni corrupti. Perferendis, culpa? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Accusamus delectus placeat maxime vero
-            tempore a minus. Ducimus praesentium facilis iste ipsa maiores
-            ratione a ipsum eum doloremque, minus hic eius.
-          </p>
-        </div>
-      </div>
-      <div id="colorClass2" class="personal-data colorClass">
-        <div class="left-personal-data">
-          <div class="email-data">
-            <img src="reference/gmail.png" alt="" />
-            <p id="userMail2">suyognagawade8383@gmail.com</p>
+      <div id="mini-temp">
+        <div class="head">
+          <div class="right-head">
+            <img id="image2" src="reference/profile.png" alt="" />
           </div>
-          <div class="addressData">
-            <img src="reference/location.png" alt="" />
-            <p id="userAdd2">pune maharashtra</p>
+          <div class="left-head">
+            <h1 id="userName2">Suyog Kalyan Nagawade</h1>
+            <p id="userObj2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+              pariatur veritatis, natus obcaecati nobis earum dolorum hic
+              praesentium nostrum vitae omnis id doloremque libero quam dolores
+              magni corrupti. Perferendis, culpa? Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Accusamus delectus placeat maxime
+              vero tempore a minus. Ducimus praesentium facilis iste ipsa
+              maiores ratione a ipsum eum doloremque, minus hic eius.
+            </p>
           </div>
         </div>
-        <div class="right-personal-data">
-          <div class="mob-number">
-            <img src="reference/phone-call.png" alt="" />
-            <p id="userNum2">7038170069</p>
-          </div>
+        <div id="colorClass2" class="personal-data colorClass">
+          <div class="left-personal-data">
+            <div class="email-data">
+              <img src="reference/gmail.png" alt="" />
 
-          <div class="linkedIn">
-            <img src="reference/linkedin.png" alt="" />
-            <p id="userLinked2">www.linkedlin/suyog-nagawade</p>
+              <a id="userMail2" href=""></a>
+            </div>
+
+            <div class="addressData">
+              <img src="reference/location.png" alt="" />
+              <a id="userAdd2" href=""></a>
+            </div>
+          </div>
+          <div class="right-personal-data">
+            <div class="mob-number">
+              <img src="reference/phone-call.png" alt="" />
+              <a id="userNum2" href=""></a>
+            </div>
+
+            <div class="linkedIn">
+              <img src="reference/linkedin.png" alt="" />
+              <a id="userLinked2" href=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="education-all">
+          <div class="left-side-data">
+            <div class="education">
+              <h2 id="colorClass3" class="colorClass">EDUCATION</h2>
+              <div class="card-body">
+                <ul id="userAq2">
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="personal-proj">
+              <h2 id="colorClass4" class="colorClass">WORK EXPERIENCE</h2>
+              <div class="card-body">
+                <ul id="userWork2">
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="lang">
+              <h2 id="colorClass5" class="colorClass">Languages</h2>
+              <div class="card-body">
+                <ul id="langText2">
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="right-side-data">
+            <div class="tech-skill">
+              <h2 id="colorClass6" class="colorClass">TECHNICAL SKILLS</h2>
+              <div class="SkillBody">
+                <ul id="userSkill2">
+                  <li>java</li>
+                  <li>html</li>
+                  <li>javaScript</li>
+                </ul>
+              </div>
+            </div>
+            <div class="certification">
+              <h2 id="colorClass7" class="colorClass">CERTIFICATES</h2>
+              <div class="card-body">
+                <ul id="certiText2">
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                  <li>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, dignissimos.
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="education-all">
-        <div class="left-side-data">
-          <div class="education">
-            <h2 id="colorClass3" class="colorClass">EDUCATION</h2>
-            <div class="card-body">
-              <ul id="userAq2">
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="personal-proj">
-            <h2 id="colorClass4" class="colorClass">WORK EXPERIENCE</h2>
-            <div class="card-body">
-              <ul id="userWork2">
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="lang">
-            <h2 id="colorClass5" class="colorClass">Languages</h2>
-            <div class="card-body">
-              <ul id="langText2">
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-              </ul>
-            </div>
-          </div>
+      <div id="max-temp">
+        <div class="printBtn mt-3 text-center">
+          <button onclick="printCv()" class="btn btn-success">
+            Print Resume
+          </button>
+          <button class="btn btn-success" onclick="backForm()">Back</button>
+          <button
+            class="btn"
+            style="background-color: rgb(226, 135, 135)"
+            id="redFun"
+          >
+            Red
+          </button>
+          <button
+            class="btn"
+            style="background-color: rgb(140, 140, 220)"
+            id="blueFun"
+          >
+            Blue
+          </button>
+          <button
+            class="btn"
+            style="background-color: rgb(202, 229, 119)"
+            id="yellowFun"
+          >
+            Yellow
+          </button>
+          <button
+            class="btn"
+            style="background-color: rgb(106, 200, 106)"
+            id="greenFun"
+          >
+            green
+          </button>
         </div>
-        <div class="right-side-data">
-          <div class="tech-skill">
-            <h2 id="colorClass6" class="colorClass">TECHNICAL SKILLS</h2>
-            <div class="SkillBody">
-              <ul id="userSkill2">
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="certification">
-            <h2 id="colorClass7" class="colorClass">CERTIFICATES</h2>
-            <div class="card-body">
-              <ul id="certiText2">
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-                <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus, dignissimos.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="printBtn mt-3 text-center">
-        <button onclick="printCv()" class="btn btn-success">
-          Print Resume
-        </button>
-        <button class="btn btn-success" onclick="backForm()">Back</button>
-        <button
-          class="btn"
-          style="background-color: rgb(226, 135, 135)"
-          id="redFun"
-        >
-          Red
-        </button>
-        <button
-          class="btn"
-          style="background-color: rgb(140, 140, 220)"
-          id="blueFun"
-        >
-          Blue
-        </button>
-        <button
-          class="btn"
-          style="background-color: rgb(202, 229, 119)"
-          id="yellowFun"
-        >
-          Yellow
-        </button>
-        <button
-          class="btn"
-          style="background-color: rgb(106, 200, 106)"
-          id="greenFun"
-        >
-          green
-        </button>
       </div>
     </div>
     <script src="script2.js"></script>
