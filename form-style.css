@@ -8,7 +8,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 5px;
 }
 .container {
   display: flex;
@@ -49,6 +48,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
 }
 #we {
   display: flex;
@@ -70,7 +70,41 @@ input {
   display: flex;
   flex-direction: column;
 }
-
+img {
+  height: 10em;
+  padding: 15px;
+}
+.last-btn {
+  display: flex;
+  gap: 1rem;
+  margin: 0 35px 25px 35px;
+}
+@media (max-width: 550px) {
+  .container {
+    display: block;
+  }
+  .last-btn {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    height: 8em;
+  }
+  .userSkill,
+  .userSkills,
+  .certiText,
+  .langText,
+  .weText,
+  .aqText {
+    border: 2px solid blueviolet;
+    margin: 5px;
+    width: 260px;
+  }
+  textarea {
+    border: 2px solid blueviolet;
+    width: 260px;
+  }
+}
 /* #form {
   display: none;
 } */
@@ -82,10 +116,6 @@ input {
 }
 #template {
   display: flex;
-}
-img {
-  height: 175px;
-  padding: 15px;
 }
 
 .left-side-template {
@@ -108,6 +138,7 @@ img {
   flex-direction: row;
   gap: 35px;
 }
+
 .personal-data {
   background-color: aquamarine;
   display: flex;
@@ -175,11 +206,53 @@ h2 {
   display: flex;
   gap: 10px;
 }
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .colRed {
   background-color: red;
   color: white;
+}
+#userMail2,
+#userLinked2,
+#userNum2,
+#userAdd2 {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 550px) {
+  .head {
+    display: flex;
+    flex-direction: column;
+  }
+  .head img {
+    justify-content: center;
+  }
+  .personal-data {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-personal-data {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-personal-data {
+    display: flex;
+    flex-direction: column;
+  }
+  #main-template {
+    margin: 20px;
+  }
+  .education-all {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 10px;
+  }
+  .printBtn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 5rem;
+  }
+  #max-temp {
+    display: flex;
+    justify-content: center;
+  }
 }
