@@ -1,11 +1,5 @@
 let weNode = document.getElementById("we");
-let audio = new Audio("Akon_-_Lonely(128k).mp3");
-function musicFunPlay() {
-  audio.play();
-}
-function musicFunPause() {
-  audio.pause();
-}
+
 // adding new textArea for work experience
 function addNewWE() {
   let newNode = document.createElement("textarea");
@@ -69,15 +63,24 @@ function saveFunction() {
   //number
   document.getElementById("userNum2").innerText =
     document.getElementById("userNum").value;
+  document.getElementById("userNum2").href =
+    "tel:" + document.getElementById("userNum").value;
+
   //address
   document.getElementById("userAdd2").innerText =
     document.getElementById("userAdd").value;
   //linkedIn
+  document.getElementById("userLinked2").href =
+    document.getElementById("userLinked").value;
+
   document.getElementById("userLinked2").innerText =
     document.getElementById("userLinked").value;
   //gmail
   document.getElementById("userMail2").innerText =
     document.getElementById("userMail").value;
+
+  document.getElementById("userMail2").href =
+    "mailto:" + document.getElementById("userMail").value;
   //objective
   document.getElementById("userObj2").innerText =
     document.getElementById("userObj1").value;
@@ -134,7 +137,9 @@ function saveFunction() {
 
 //print the cv
 function printCv() {
+  document.getElementById("max-temp").style.display = "none";
   window.print();
+  document.getElementById("max-temp").style.display = "block";
 }
 
 function backForm() {
