@@ -14,15 +14,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 450px;
-  width: 450px;
+  height: 30.5rem;
+  width: 30.5rem;
   background-color: white;
   box-shadow: 15px 15px 31px 0 #58585f;
 }
 button {
   cursor: pointer;
-  width: 200px;
-  height: 40px;
+  width: 20rem;
+  height: 3rem;
 }
 h1 {
   font-size: xx-large;
@@ -36,4 +36,19 @@ h1 {
 }
 a {
   text-decoration: none;
+}
+@media (max-width: 450px) {
+  .box {
+    height: 20.5rem;
+    width: 20.5rem;
+  }
+  button {
+    width: 10rem;
+  }
+  h1 {
+    font-size: large;
+  }
+  .box ol {
+    font-size: smaller;
+  }
 }
