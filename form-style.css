@@ -34,6 +34,10 @@ input {
   padding: 10px;
   gap: 10px;
 }
+.width-312px {
+  width: 312.56px;
+  height: 52px;
+}
 
 .userSkill,
 .userSkills,
@@ -42,7 +46,6 @@ input {
 .weText,
 .aqText {
   border: 2px solid blueviolet;
-  margin: 5px;
 }
 .end {
   display: flex;
@@ -97,12 +100,14 @@ img {
   .weText,
   .aqText {
     border: 2px solid blueviolet;
-    margin: 5px;
-    width: 260px;
   }
   textarea {
     border: 2px solid blueviolet;
-    width: 260px;
+       width: 312.56px;
+  }
+   .width-312px {
+    width: 312.56px;
+    height: 52px;
   }
 }
 /* #form {
