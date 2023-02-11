@@ -11,6 +11,8 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Document</title>
   </head>
   <body>
@@ -18,11 +20,20 @@
 
     <!--   main-container form start -->
     <div id="form">
-      <div id="main-container">
+      <div
+        id="main-container"
+        style="
+          background: linear-gradient(
+            rgb(231, 238, 250) 50%,
+            rgb(255, 255, 255) 100%
+          );
+          font-family: Roboto Slab, serif;
+        "
+      >
         <!-- form head start -->
         <div class="head1">
-          <h1>Resume Builder</h1>
-          <p>By Nagawade Suyog</p>
+          <h1 style="padding-top: 5px">Resume Builder</h1>
+          <img src="./reference/cv.png" alt="" />
         </div>
         <!-- form head end -->
 
@@ -31,52 +42,68 @@
           <div class="personal-info">
             <!-- personal-info block start -->
             <h3>Personal Information</h3>
-            <label for="">Name:</label>
+            <hr style="margin: 0" />
+            <label style="font-family: Lato, sans-serif; font-size: larger"
+              >Name</label
+            >
             <input
               type="text"
               id="userName"
               class="width-312px"
-              placeholder=" Enter Your Name"
+              placeholder=" Enter Name"
             />
-            <label for="">Phone Number</label>
+            <label style="font-family: Lato, sans-serif; font-size: larger"
+              >Phone Number</label
+            >
             <input
               type="text"
               id="userNum"
               class="width-312px"
-              placeholder=" Enter Your Number"
+              placeholder=" Enter Number"
             />
-            <label for="">Address</label>
+            <label style="font-family: Lato, sans-serif; font-size: larger"
+              >Address</label
+            >
             <textarea
-              rows="5"
+              rows="3"
               id="userAdd"
               type="text"
               placeholder=" Enter Address"
+              style="font-family: Lato, sans-serif; font-size: larger"
             ></textarea>
-            <label for="">LinkedIn</label>
+            <label style="font-family: Lato, sans-serif; font-size: larger"
+              >LinkedIn</label
+            >
             <input
               type="text"
               id="userLinked"
               class="width-312px"
-              placeholder=" Enter LinkedIn Account"
+              placeholder=" Enter LinkedIn Id"
             />
 
-            <label for="">Email</label>
+            <label style="font-family: Lato, sans-serif; font-size: larger"
+              >Email</label
+            >
 
             <input
               type="email"
               class="width-312px"
               id="userMail"
-              placeholder=" Enter Your Email"
+              placeholder=" Enter Email"
             />
 
             <div id="Skill">
-              <label for="">Skills</label>
+              <label style="font-family: Lato, sans-serif; font-size: larger"
+                >Skills</label
+              >
               <textarea
                 class="userSkills"
                 rows="2"
                 type="text"
-                placeholder=" Enter Skills "
+                placeholder=" Enter Skill"
+                style="font-family: Lato, sans-serif; font-size: larger"
               ></textarea>
+              <br />
             </div>
 
             <div class="skillBtn">
@@ -84,6 +111,7 @@
                 type="button"
                 class="btn btn-info"
                 onclick="addNewSkill()"
+                style="font-family: sans-serif"
               >
                 Add
               </button>
@@ -94,72 +122,107 @@
           <!-- professional-info block start -->
           <div class="professional-info">
             <h3>Professional Information</h3>
-            <label for="">Objective</label>
+            <hr style="margin: 0" />
+            <label style="font-family: Lato, sans-serif; font-size: larger"
+              >Objective</label
+            >
             <textarea
               id="userObj1"
-              rows="5"
+              rows="3"
               type="text"
               placeholder=" Enter Your Objective"
+              style="font-family: Lato, sans-serif; font-size: larger"
             ></textarea>
 
             <!--  Work Experience block start -->
             <div id="we">
-              <label for="">Work Experience</label>
+              <label style="font-family: Lato, sans-serif; font-size: larger"
+                >Work Experience</label
+              >
               <textarea
                 rows="2"
                 class="weText"
                 type="text"
                 placeholder=" Enter Work Experience"
+                style="font-family: Lato, sans-serif; font-size: larger"
               ></textarea>
+              <br />
             </div>
             <!--  Work Experience block end-->
             <div class="weBtn">
-              <button type="button" class="btn btn-info" onclick="addNewWE()">
+              <button
+                type="button"
+                style="font-family: sans-serif"
+                class="btn btn-info"
+                onclick="addNewWE()"
+              >
                 Add
               </button>
             </div>
             <!--  Acadmic Qualification block start -->
             <div id="aq">
-              <label for="">Acadmic Qualification</label>
+              <label style="font-family: Lato, sans-serif; font-size: larger"
+                >Acadmic Qualification</label
+              >
               <textarea
                 rows="2"
                 type="text"
                 class="aqText"
                 placeholder=" Enter Acadmic Qualification"
+                style="font-family: Lato, sans-serif; font-size: larger"
               ></textarea>
+              <br />
             </div>
             <!--  Acadmic Qualification block end -->
 
             <div class="aqBtn">
-              <button type="button" class="btn btn-info" onclick="addNewAQ()">
+              <button
+                type="button"
+                style="font-family: sans-serif"
+                class="btn btn-info"
+                onclick="addNewAQ()"
+              >
                 Add
               </button>
             </div>
 
             <div id="lang">
-              <label for="">Languages</label>
+              <label style="font-family: Lato, sans-serif; font-size: larger"
+                >Languages</label
+              >
               <textarea
                 rows="2"
                 type="text"
                 class="langText"
                 placeholder=" Enter languages"
+                style="font-family: Lato, sans-serif; font-size: larger"
               ></textarea>
+              <br />
             </div>
 
             <div class="langBtn">
-              <button type="button" class="btn btn-info" onclick="addNewlang()">
+              <button
+                type="button"
+                style="font-family: sans-serif"
+                class="btn btn-info"
+                onclick="addNewlang()"
+              >
                 Add
               </button>
             </div>
 
             <div id="certi">
-              <label for="">Certificates</label>
+              <label style="font-family: Lato, sans-serif; font-size: larger"
+                >Certificates</label
+              >
               <textarea
                 rows="2"
                 type="text"
                 class="certiText"
                 placeholder=" Enter Certificates "
+                style="font-family: Lato, sans-serif; font-size: larger"
               ></textarea>
+              <br />
             </div>
 
             <div class="certiBtn">
@@ -167,6 +230,7 @@
                 type="button"
                 class="btn btn-info"
                 onclick="addNewcerti()"
+                style="font-family: sans-serif"
               >
                 Add
               </button>
@@ -182,24 +246,21 @@
         </button>
       </div>
 
-      <div class="last-btn">
+      <!-- <div class="last-btn">
         <button class="btn btn-success" onclick="myFunction()">
           dark mode
-        </button>
-      </div>
-
-      <!--   main-container form end -->
+        </button> -->
     </div>
+
+    <!--   main-container form end -->
+
     <!-- professional-info block end -->
 
     <!---------------------------------------------------------------------------------------------------------------------------------->
 
-    <div id="main-template">
+    <div id="main-template" style="border: 2px solid">
       <div id="mini-temp">
         <div class="head">
-          <div class="right-head">
-            <img id="image2" src="reference/profile.png" alt="" />
-          </div>
           <div class="left-head">
             <h1 id="userName2">Suyog Kalyan Nagawade</h1>
             <p id="userObj2">
