@@ -5,7 +5,7 @@
 /* form css part */
 .head1 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -22,9 +22,11 @@
 }
 textarea {
   border: 2px solid blueviolet;
+  font-family: Lato, sans-serif;
+  font-size: larger;
 }
 input {
-  width: fit-content;
+  width: 200px;
   border: 2px solid blueviolet;
 }
 .professional-info {
@@ -37,6 +39,8 @@ input {
 .width-312px {
   width: 312.56px;
   height: 52px;
+  font-family: Lato, sans-serif;
+  font-size: larger;
 }
 
 .userSkill,
@@ -46,6 +50,8 @@ input {
 .weText,
 .aqText {
   border: 2px solid blueviolet;
+  font-family: Lato, sans-serif;
+  font-size: larger;
 }
 .end {
   display: flex;
@@ -74,8 +80,8 @@ input {
   flex-direction: column;
 }
 img {
-  height: 10em;
-  padding: 15px;
+  height: 5em;
+  padding: 10px;
 }
 .last-btn {
   display: flex;
@@ -91,7 +97,8 @@ img {
     justify-content: center;
   }
   img {
-    height: 8em;
+    height: 5em;
+    padding: 10px;
   }
   .userSkill,
   .userSkills,
@@ -103,11 +110,20 @@ img {
   }
   textarea {
     border: 2px solid blueviolet;
-       width: 312.56px;
+    width: 312.56px;
+    font-family: Lato, sans-serif;
+    font-size: larger;
   }
-   .width-312px {
+
+  .width-312px {
     width: 312.56px;
     height: 52px;
+  }
+  .head1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 /* #form {
@@ -116,7 +132,6 @@ img {
 
 /* template css part */
 #main-template {
-  margin: 80px;
   display: none;
 }
 #template {
@@ -142,22 +157,22 @@ img {
   display: flex;
   flex-direction: row;
   gap: 35px;
+  margin: 10px;
+}
+.left-side-data {
+  width: 45vw;
+}
+.right-side-data {
+  width: 48vw;
+}
+.personal-data {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid;
+
+  margin: 10px;
 }
 
-.personal-data {
-  background-color: aquamarine;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-.left-personal-data {
-  display: flex;
-  gap: 30px;
-}
-.right-personal-data {
-  display: flex;
-  gap: 30px;
-}
 .linkedIn {
   display: flex;
   align-items: center;
@@ -261,3 +276,4 @@ h2 {
     justify-content: center;
   }
 }
+ 
