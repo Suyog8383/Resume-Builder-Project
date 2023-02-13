@@ -5,8 +5,10 @@ function addNewWE() {
   let newNode = document.createElement("textarea");
   newNode.classList = "weText";
   newNode.setAttribute("rows", 2);
-  newNode.setAttribute("placeholder", "Enter Work Experience");
+  newNode.setAttribute("placeholder", " Enter Work Experience");
   weNode.appendChild(newNode);
+  let addBreak = document.createElement("br");
+  weNode.appendChild(addBreak);
 }
 
 let weNode2 = document.getElementById("aq");
@@ -15,8 +17,10 @@ function addNewAQ() {
   let newNode2 = document.createElement("textarea");
   newNode2.classList = "aqText";
   newNode2.setAttribute("rows", 2);
-  newNode2.setAttribute("placeholder", "Enter Acadmic Qualification");
+  newNode2.setAttribute("placeholder", " Enter Acadmic Qualification");
   weNode2.appendChild(newNode2);
+  let addBreak = document.createElement("br");
+  weNode2.appendChild(addBreak);
 }
 
 let weNode3 = document.getElementById("lang");
@@ -25,8 +29,10 @@ function addNewlang() {
   let newNode = document.createElement("textarea");
   newNode.classList = "langText";
   newNode.setAttribute("rows", 2);
-  newNode.setAttribute("placeholder", "Enter languages");
+  newNode.setAttribute("placeholder", " Enter languages");
   weNode3.appendChild(newNode);
+  let addBreak = document.createElement("br");
+  weNode3.appendChild(addBreak);
 }
 
 let weNode4 = document.getElementById("certi");
@@ -35,8 +41,10 @@ function addNewcerti() {
   let newNode = document.createElement("textarea");
   newNode.classList = "certiText";
   newNode.setAttribute("rows", 2);
-  newNode.setAttribute("placeholder", "Enter certificates");
+  newNode.setAttribute("placeholder", " Enter certificates");
   weNode4.appendChild(newNode);
+  let addBreak = document.createElement("br");
+  weNode4.appendChild(addBreak);
 }
 
 let weNode5 = document.getElementById("Skill");
@@ -45,8 +53,10 @@ function addNewSkill() {
   let newNode = document.createElement("textarea");
   newNode.classList = "userSkills";
   newNode.setAttribute("rows", 2);
-  newNode.setAttribute("placeholder", "Enter skills");
+  newNode.setAttribute("placeholder", " Enter skill");
   weNode5.appendChild(newNode);
+  let addBreak = document.createElement("br");
+  weNode5.appendChild(addBreak);
 }
 
 // change the colour of background
